@@ -8,11 +8,11 @@
       <convert type="EventName">Name</convert>
     </widget>
     <eLabel position="center,515" size="2,175" backgroundColor="Stripe" />
-    <eLabel position="67,510" size="130,28" font="Bold; 24" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="bottom" text="Now:" />
+    <eLabel position="67,510" size="130,28" font="Bold; 24" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="bottom" text="Teraz:" />
     <widget source="session.Event_Now" render="Label" position="67,544" size="557,153" font="SIDesc; 22" zPosition="1" backgroundColor="BackTransparent" transparent="1" foregroundColor="TextLightDimmed" valign="top">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
-    <eLabel position="657,510" size="130,28" font="Bold; 24" halign="left" foregroundColor="TextHighlight2" backgroundColor="BackTransparent" transparent="1" valign="bottom" text="Next:" />
+    <eLabel position="657,510" size="130,28" font="Bold; 24" halign="left" foregroundColor="TextHighlight2" backgroundColor="BackTransparent" transparent="1" valign="bottom" text="Potem:" />
     <widget source="session.Event_Next" render="Label" position="657,544" size="557,153" font="SIDesc; 22" zPosition="1" backgroundColor="BackTransparent" transparent="1" foregroundColor="TextLightDimmed" valign="top">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>

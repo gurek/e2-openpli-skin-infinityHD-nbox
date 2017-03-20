@@ -1,14 +1,14 @@
   <!--/* SECOND INFOBAR MORE EPG -->
   <screen flags="wfNoBorder" name="SecondInfoBar" position="center,center" size="1280,720" title="InfoBar">
     <!--/* Start EPG -->
-    <eLabel text="Now:" position="67,85" size="140,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="top" />
+    <eLabel text="Teraz:" position="67,85" size="140,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="top" />
     <widget position="309,85" size="610,32" source="session.Event_Now" render="Label" font="Bold; 26" valign="top" noWrap="1" backgroundColor="BackTransparent" transparent="1" foregroundColor="TextHighlight">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="212,127" size="998,225" font="SIDesc; 24" zPosition="1" backgroundColor="BackTransparent" transparent="1" foregroundColor="TextLightDimmed" valign="top">
       <convert type="EventName">FullDescription</convert>
     </widget>
-    <eLabel text="Next:" position="67,373" size="140,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight2" backgroundColor="BackTransparent" transparent="1" valign="top" />
+    <eLabel text="Potem:" position="67,373" size="140,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight2" backgroundColor="BackTransparent" transparent="1" valign="top" />
     <widget position="310,373" size="750,32" source="session.Event_Next" render="Label" font="Bold; 26" valign="top" noWrap="1" backgroundColor="BackTransparent" transparent="1" foregroundColor="TextHighlight2">
       <convert type="EventName">Name</convert>
     </widget>

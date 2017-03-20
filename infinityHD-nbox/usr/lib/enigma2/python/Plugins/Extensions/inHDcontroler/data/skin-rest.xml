@@ -370,17 +370,7 @@
   </screen>
   <!-- RADIO */-->
   <screen name="About" position="250,68" size="780,610" title="About">
-    <ePixmap position="115,0" size="546,202" pixmap="infinityHD-nbox/menu/infinityHD-nbox-logo.png" alphatest="blend" />
-    <widget source="EnigmaVersion" render="Label" position="13,213" size="750,25" font="Bold;22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="ImageVersion" render="Label" position="13,245" size="750,25" font="Bold;22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="FPVersion" render="Label" position="13,276" size="750,25" font="Bold;22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="TunerHeader" render="Label" position="13,320" size="750,25" font="Bold;24" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="Tuner0" render="Label" position="13,355" size="750,25" font="Regular; 22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="Tuner1" render="Label" position="13,385" size="750,25" font="Regular; 22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="Tuner2" render="Label" position="13,415" size="750,25" font="Regular; 22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="Tuner3" render="Label" position="13,445" size="750,25" font="Regular; 22" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="HDDHeader" render="Label" position="13,485" size="750,25" font="Bold;24" halign="center" backgroundColor="BackTransparent" transparent="1" />
-    <widget source="hddA" render="Label" position="13,520" size="750,79" font="Regular; 22" halign="center" backgroundColor="BackTransparent" transparent="1" />
+    <widget name="AboutScrollLabel" font="Regular;22" position="13,20" size="750,575" halign="center" backgroundColor="BackTransparent" transparent="1" />
   </screen>
   <screen name="AdapterSetup" position="90,100" size="1100,560" title="Network Setup">
     <eLabel position="0,0" size="1100,2" backgroundColor="Grey" />
@@ -966,7 +956,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <screen name="ServiceInfo" position="0,0" size="1280,720" title="Serviceinfo" flags="wfNoBorder">
     <!--		<widget position="675,140" size="485,35" name="mode" font="Bold;28" transparent="1" zPosition="2" />  -->
     <!--		<eLabel position="665,180" size="450,2" backgroundColor="TextForeground" zPosition="2" />   -->
-    <widget position="385,200" size="505,420" name="infolist" selectionDisabled="1" transparent="1" zPosition="2" />
+    <widget position="305,200" size="905,420" name="infolist" selectionDisabled="1" transparent="1" zPosition="2" />
     <ePixmap position="240,625" size="200,60" pixmap="infinityHD-nbox/buttons/button_200x60_red.png" alphatest="on" zPosition="2" />
     <ePixmap position="440,625" size="200,60" pixmap="infinityHD-nbox/buttons/button_200x60_green.png" alphatest="on" zPosition="2" />
     <ePixmap position="640,625" size="200,60" pixmap="infinityHD-nbox/buttons/button_200x60_yellow.png" alphatest="on" zPosition="2" />

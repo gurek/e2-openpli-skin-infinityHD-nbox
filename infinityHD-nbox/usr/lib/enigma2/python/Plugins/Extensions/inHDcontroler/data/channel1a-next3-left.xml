@@ -1,5 +1,5 @@
     <eLabel position="738,493" size="500,131" backgroundColor="BackTransparent" transparent="0" zPosition="4" />
-    <eLabel text="Next" position="738,498" size="500,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="top" zPosition="5"/>
+    <eLabel text="Potem" position="738,498" size="500,32" font="Bold; 26" halign="left" foregroundColor="TextHighlight" backgroundColor="BackTransparent" transparent="1" valign="top" zPosition="5"/>
     <eLabel position="738,532" size="500,2" backgroundColor="Stripe" zPosition="5" />
 	<widget source="ServiceEvent" render="Label" position="738,534" size="410,25" font="Regular; 22" zPosition="5" noWrap="1" transparent="1" valign="top" foregroundColor="TextLightDimmed" backgroundColor="BackTransparent">
       <convert type="inHDNextEvents">Event1,noDuration</convert>
